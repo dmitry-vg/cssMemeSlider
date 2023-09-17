@@ -422,18 +422,7 @@ body {
   z-index: 1;
 
 }
-.slide_1 {
-  background-image: ("/assets/mem1.jpg");
-}
-.slide_2 {
-  background-image: ("/assets/mem2.jpeg");
-}
-.slide_3 {
-  background-image: ("/assets/mem3.jpg");
-}
-.slide_4 {
-  background-image: ("/assets/mem4.jpg");
-}
+
 
 .overflow {
   width: 100%;
@@ -504,23 +493,38 @@ body {
 }
 
 #slides .slide_1 {
-  background: #00171F;
+  background-image:url("../assets/mem1.jpg");
+  background-color: #00171F;
   border-radius: 5px;
+  background-repeat: round;
+   background-size: 100%; /* Современные браузеры */
 }
-
 #slides .slide_2 {
-  background: #003459;
+  background-image: url("../assets/mem2.jpeg");
+  background-color: #003459;
   border-radius: 5px;
+  background-repeat: round;
+
+  background-size: 100%; /* Современные браузеры */
+  
 }
 
 #slides .slide_3 {
-  background: #007EA7;
+  background-image: url("../assets/mem3.jpg");
+  background-color: #007EA7;
   border-radius: 5px;
+  background-repeat: round;
+
+  background-size: 100%; /* Современные браузеры */
 }
 
 #slides .slide_4 {
-  background: #00A8E8;
+  background-image: url("../assets/mem4.jpg");
+  background-color: #00A8E8;
   border-radius: 5px;
+  background-repeat: round;
+
+  background-size: 100%; /* Современные браузеры */
 }
 
 #bullets {
