@@ -547,13 +547,25 @@ body {
   justify-content: space-between;
   ;
 }
+@media (min-width: 1024px){
+  #slides .inner{
+    height: 800px;
+  }
+}
 @media (max-width: 820px) {
   .controll__bullets {
     flex-direction: column-reverse;
 
   }
   .title__slider {
-    text-align: center;
     margin-top: 20px;
 }
+#slides .inner{
+  height: 300px;
+}
+}
+@media (max-width: 380px){
+  #slides .inner{
+    height: 200px;
+  }
 }
